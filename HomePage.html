@@ -1,0 +1,112 @@
+
+<body>
+    <html>
+        <table>
+            <row>
+                <img src="BookReadsLogo.png" alt="FANTASY" width="127" height="125">
+
+            </row>
+        </table></br>
+      
+<table>
+    
+    <row>
+        
+        <col>
+        
+            <img src="fantasy.avif" alt="fantasy" width="100" height="78"> 
+        </col>
+       <col>
+
+       <button id="myButton" class="float-left submit-button">FANTASY</button>
+        </col>
+    </row>
+
+    </br>
+    <div style="padding-top: 10px;"></div>
+        <row>
+            <col>
+            <img src="image.png" alt="YOUNG ADULT" width="100" height="78"> 
+            </col>
+            <col style="background-color: white;">
+            <button id="theirButton" class="float-left submit-button">YOUNG ADULT</button>
+             
+            </col>
+        </row>
+          </br>  
+          <div style="padding-top: 10px;"></div>
+          <row>
+            <col>
+
+            <img src="Horror.png" alt="HORROR-THRILLER" width="100" height="78"> 
+            
+            </col>
+            <col>
+            <button id="yourButton" class="float-left submit-button">HORROR/THRILLER</button>
+            </col>
+            </row>
+            </br>
+            <div style="padding-top: 10px;"></div>
+        <row>
+            <col>
+            <img src="fanfiction.png" alt="FANFICTION" width="100" height="78"> 
+            </col>
+            <col>
+            <button id="ourButton" class="float-left submit-button">FANFICTION</button>
+        </col>
+          </row>
+        </br>
+</table>        
+      </div>
+      </html>
+      </body>
+    </br>
+      <button style="height:30px; width:80px;padding-bottom:20; padding-top: 10;"class="float-left submit-button" id="weButton" >Log Out</button>
+
+    </html>
+</body>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "FANTASY.html";
+    };
+    document.getElementById("yourButton").onclick = function () {
+        location.href = "HORROR-THRILLER.html";
+    };
+    document.getElementById("ourButton").onclick = function () {
+        location.href = "FANFICTION.html";
+    };
+    document.getElementById("weButton").onclick = function () {
+        location.href = "LogIn.html";
+    };
+
+</script>
+<style>
+    button{
+    
+        position:absolute;
+        padding-top: 17;
+        background-color: white;
+        height: 80px;
+        width: 250px;
+
+    }
+    
+    body {
+ 
+    background-color: #AC9474;
+    }
+
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    p {
+        color: black;
+        text-align:start
+    }
+</style>
